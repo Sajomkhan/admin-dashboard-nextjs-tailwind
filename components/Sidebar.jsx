@@ -11,7 +11,6 @@ const Sidebar = ({ children }) => {
         <div className='flex'>
             <div className='fixed w-20 h-screen p-4 bg-white border-r-[1px] flex flex-col justify-between'>
                 <div className='flex flex-col'>
-                    <div>
                         <Link href='/'>
                             <div className='bg-purple-800 text-white p-3 rounded-lg inline-block'>
                                 <RxSketchLogo size={20} />
@@ -38,10 +37,6 @@ const Sidebar = ({ children }) => {
                                 <FiSettings size={20} />
                             </div>
                         </Link>
-                    </div>
-                    {/* <div className='bg-gray-100 hover:bg-gray-200 cursor-pointer p-3 rounded-full'>
-                    <img src={Image} alt="Image" />
-                </div> */}
                 </div>
             </div>
             <main className='ml-20 w-full'>{children}</main>
