@@ -1,6 +1,6 @@
 # Admin Dashboard Pannel with Next.Js-Tailwindcss
 
-![Screenshot](app-image.jpg)
+![Screenshot](app-image.JPG)
 
 ### It's a Full Mobile Responsive Web Page
 
@@ -44,4 +44,4 @@
     import { FaBars, FaTimes, } from 'react-icons/fa'
  
  ### It's a Full Mobile Responsive Web Page
-![Screenshot](app-image-mobile.jpg)
+![Screenshot](app-image-mobile.JPG)
