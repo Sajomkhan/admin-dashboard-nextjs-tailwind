@@ -1,6 +1,8 @@
 # Admin Dashboard Pannel with Next.Js-Tailwindcss
 
-[![image](app-image.JPG)](https://food-shop-app-react-tailwined.netlify.app/)
+<!-- ### Go to Live Project: https://food-shop-app-react-tailwined.netlify.app/ -->
+<!-- [![image](app-image.JPG)](https://food-shop-app-react-tailwined.netlify.app/) -->
+
 ![Screenshot](app-image.JPG)
 
 ### It's a Full Mobile Responsive Web Page
