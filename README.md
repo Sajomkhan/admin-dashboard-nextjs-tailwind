@@ -3,7 +3,7 @@
 
 ### Go to Live Project: https://food-shop-app-react-tailwined.netlify.app/
 
-[![image](app-image.JPG)]('')
+[![image](./app-image.JPG)]('')
 
 ### It's a Full Mobile Responsive Web Page
 
@@ -47,4 +47,4 @@
     import { FaBars, FaTimes, } from 'react-icons/fa'
  
  ### It's a Full Mobile Responsive Web Page
- [![image](app-image-mobile.JPG)]('')
+ [![image](./app-image-mobile.JPG)]('')
