@@ -1,38 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Admin Dashboard Pannel with Next.Js-Tailwindcss
+### It's a Full Mobile Responsive App
 
-## Getting Started
+### Go to Live Project: https://food-shop-app-react-tailwined.netlify.app/
 
-First, run the development server:
+[![image](app-image.JPG)]('')
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### It's a Full Mobile Responsive Web Page
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### What I use here:
+* Next.Js
+* Tailwindcss
+* React-icons
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+#### Create Next.Js boilerplate:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+    npx create-next-app@latest ./
+    
+#### Live server run:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+    npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### For install Tailwind you have to follow 4 steps, such as...
 
-## Learn More
+#### Install Tailwind CSS by command line:
 
-To learn more about Next.js, take a look at the following resources:
+    npm install -D tailwindcss
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Generate your tailwind.config.js file:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+     npx tailwindcss init
 
-## Deploy on Vercel
+#### Configure your template paths
+#### Add the paths to all of your template files in your tailwind.config.js file:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    content: [
+      "./src/**/*.{js,jsx,ts,tsx}",
+    ],
+  
+ #### Add the Tailwind directives to your CSS:
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+ 
+ ### Install & import React-Icon:
+    npm i react-icons --save
+    import { FaBars, FaTimes, } from 'react-icons/fa'
+ 
+ ### It's a Full Mobile Responsive Web Page
+ [![image](app-image-mobile.JPG)]('')
