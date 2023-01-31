@@ -3,7 +3,7 @@
 
 ### Go to Live Project: https://food-shop-app-react-tailwined.netlify.app/
 
-[![image](./app-image.jpg)]('')
+[![image](../local/app-image.jpg)]('')
 
 ### It's a Full Mobile Responsive Web Page
 
